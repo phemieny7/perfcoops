@@ -48,10 +48,6 @@ jobs:
           paths:
             - node_modules
 
-      - run:
-          name: "Generate App key"
-          command: php artisan key:generate
-
       # run tests with phpunit
       - run:
           name: "Run Unit Tests"
