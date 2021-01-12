@@ -6,6 +6,7 @@
 
         <title>Laravel</title>
 
+        <link rel="stylesheet" src="{{asset('owner/js/app.css')}}">
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
 
@@ -65,6 +66,6 @@
     </head>
     <body>
         <div id="root"></div>
-        <script src="{{ asset('js/app.js') }}"></script>
+        <script src="{{ asset('owner/js/app.js') }}"></script>
     </body>
     </html>
